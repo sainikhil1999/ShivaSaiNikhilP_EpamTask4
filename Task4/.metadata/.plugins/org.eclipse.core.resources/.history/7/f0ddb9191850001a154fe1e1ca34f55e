@@ -1,0 +1,13 @@
+package com.epam4.task4;
+public class CalculateInterest {
+	public double calculateSimpleInterest(double Principle,double Time,double Rate)
+	{
+		double Simple_Interest=(Principle*Time*Rate)/100;
+		return Simple_Interest;
+	}
+	public double calculateCompoundInterest(double Principle,double Time,double Rate)
+	{
+		double Compound_Interest = Principle*(Math.pow((1+Rate/100),Time));        
+		return Compound_Interest;
+	}
+}

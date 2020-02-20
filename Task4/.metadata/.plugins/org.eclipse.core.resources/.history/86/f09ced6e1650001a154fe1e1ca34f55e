@@ -1,0 +1,7 @@
+package com.epam4.task4;
+public class CalculateInterest {
+	public int simpleInterest(int Principle,int Time,int Rate)
+	{
+		return 1;
+	}
+}

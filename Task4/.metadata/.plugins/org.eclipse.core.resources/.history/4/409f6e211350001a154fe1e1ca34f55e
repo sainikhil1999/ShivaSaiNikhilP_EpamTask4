@@ -1,0 +1,16 @@
+package com.epam4.task4;
+
+import java.util.Scanner;
+
+public class CalculateInterest {
+	private static Scanner sc;
+	private static int a;
+
+	public static void main( String[] args )
+    {
+		sc = new Scanner(System.in);
+		a = sc.nextInt();
+        System.out.println( "Hello!"+a);
+    }
+
+}

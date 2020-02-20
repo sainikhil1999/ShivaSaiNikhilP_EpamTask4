@@ -1,0 +1,8 @@
+package com.epam4.task4;
+public class CalculateInterest {
+	public float calculateSimpleInterest(int Principle,int Time,int Rate)
+	{
+		float Simple_Interest=(Principle*Time*Rate)/100;
+		return Simple_Interest;
+	}
+}
